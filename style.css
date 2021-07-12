@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kirang Haerang', cursive;
+  }
+  .header{
+    background-image: url(https://media.istockphoto.com/vectors/computer-games-seamless-background-vector-id528711245?b=1&k=6&m=528711245&s=612x612&w=0&h=zKGpDrFzAtNBAkze6CneYPH2cPtjgTIm94yJKalnpUc=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10% 40%;
+  }
+  .container{
+    margin: 15px auto;
+    width: 75%;
+  }
+  .blackbox{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    color: white;
+    letter-spacing: 3px;
+  }
+  .nav{
+    background: url(https://i.pinimg.com/originals/79/73/e9/7973e9a92e0ce745a60614beceba961f.gif);
+    display: flex;
+    justify-content: space-around;
+    padding: 17px;
+  }
+  .buttons{
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-timing-function: ease-out;
+    color: white;
+  }
+  .buttons:hover{
+    background-image: linear-gradient(to right, rgba(255,0,0,0.7), rgba(98, 52, 140,0.7));
+  }
+  .about{
+    text-align: center!important;
+    padding: 25px;
+  }
+  .video{
+    display: flex;
+    justify-content: center;
+  }
+  .friend{
+    padding: 0px 60px;
+    text-align: center;
+  }
+  .profile{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto
+  }
+  
+  #one{
+    background-image: url(https://i.pinimg.com/originals/bb/de/e3/bbdee3a0794d8c113b28b3b7f9fa1e7c.jpg); 
+  }
+  #two{
+    background-image: url(https://qph.fs.quoracdn.net/main-qimg-396b1449a73cd7198c4edc337b5cae80.webp); 
+  }
+  #three{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Suzumiya_Haruhi.jpg/220px-Suzumiya_Haruhi.jpg); 
+  }
+  #four{
+    background-image: url(https://netstorage-legit.akamaized.net/images/fbba8a4292faeddd.jpg); 
+  }
+  
+  .paras{
+    text-align: center;
+  }
+  
+  
+  /* ------------------------- */
+  
+  .cardWrapper{
+    margin: 40px auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card{
+    width: 20%;
+    background-color: #e6e6e6;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .card img{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 50%;
+    /* height:80px; */
+    /* height: 80px; */
+  }
+  .anime{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .cardtwo{
+    width: 20%;
+    background-color: #ebe9da;
+    text-align: center;
+    padding-bottom: 10px;
+    transition: transform 0.3s;
+    border: 2px solid black;
+  }
+  .cardtwo:hover{
+    transform: scale(1.2);
+  }
+  .cardtwo img{
+    width: 100%;
+    border: 1px solid  black;
+  }
+  .cardone{
+    margin: 40px auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .news{
+    width: 20%;
+    background-color: rgb(236, 32, 236);
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-image: url(https://media.istockphoto.com/vectors/gaming-gadgets-seamless-pattern-in-deep-blue-outline-esports-pc-and-vector-id1166885668?b=1&k=6&m=1166885668&s=612x612&w=0&h=e3Umh8igr2Epd1dZYi0dkuGx4i5CQpl9Ep3ktbwKHf4=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+  .newsone{
+    width: 40%;
+    background-color: rgb(236, 32, 236);
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-image: url(https://img.freepik.com/free-vector/abstract-violet-pixel-rain-background_23-2148362568.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
